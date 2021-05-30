@@ -12,10 +12,10 @@ class B2CStack : Stack
             Properties = new AzureNative.AzureActiveDirectory.Inputs.CreateTenantRequestBodyPropertiesArgs
             {
                 CountryCode = "US",
-                DisplayName = "MatchHub",
+                DisplayName = "CleverName",
             },
-            ResourceGroupName = "fs-uuid-DEV",
-            ResourceName = "MatchHub.onmicrosoft.com",
+            ResourceGroupName = "name-of-existing-resource-group",
+            ResourceName = "CleverName.onmicrosoft.com",
             Sku = new AzureNative.AzureActiveDirectory.Inputs.B2CResourceSKUArgs
             {
                 Name = AzureNative.AzureActiveDirectory.B2CResourceSKUName.Standard,

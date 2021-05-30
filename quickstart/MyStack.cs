@@ -8,6 +8,8 @@ class MyStack : Stack
 {
     public MyStack()
     {
+        // From Quickstart, not needed to create B2C tenant provided you have an existing RG to reference.
+
         // Create an Azure Resource Group
         var resourceGroup = new ResourceGroup("pulumi-resourceGroup");
 
