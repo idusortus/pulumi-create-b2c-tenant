@@ -1,4 +1,4 @@
-# Automate Creation of a New Azure B2C Tenant  (Windows 10 Local)
+# Automate Creation of a New Azure B2C Tenant  (Windows 10, Linux options exist)
 
 visit https://app.pulumi.com/
 - create account
