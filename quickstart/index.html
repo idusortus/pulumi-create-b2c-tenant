@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+.container {
+    height:1410px;
+    padding-top: 1%;
+}
+.responsive-iframe {
+    height: 100%;
+    border: none;    
+    padding-right:50px; /* remove if only listing one item at a time */
+}
+
+/* not required. centers content. */
+.container {
+    position: relative;
+    text-align: center;
+}
+.container:before {
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 0; height: 100%;
+    vertical-align: middle;
+}
+.responsive-iframe{
+    display: inline-block;
+    vertical-align: middle;
+}
+</style>
+</head>
+<body>
+<div>
+    <p>Hodor. Hodor hodor, hodor. Hodor hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor; hodor hodor hodor. Hodor. Hodor hodor; hodor hodor - hodor, hodor, hodor hodor. Hodor, hodor. Hodor. Hodor, hodor hodor hodor; hodor hodor; hodor hodor hodor! Hodor hodor HODOR! Hodor hodor... Hodor hodor hodor...</p>
+</div>
+<div class="container"> 
+<iframe class="responsive-iframe" scrolling="no" src="https://checkout.square.site/merchant/MLY4JBQEMTAHS/checkout/OEPUCNV4ZM6EKQFMQGPVW6OB"></iframe>
+  <iframe class="responsive-iframe" scrolling="no" src="https://checkout.square.site/merchant/MLY4JBQEMTAHS/checkout/OEPUCNV4ZM6EKQFMQGPVW6OB"></iframe>
+</div>
+</body>
+</html>
