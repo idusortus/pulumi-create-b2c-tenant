@@ -4,7 +4,9 @@ visit https://app.pulumi.com/
 - create account
 - create key
 - install pulumi
-- assign pulumi file & your key to PATH (set environment variable name= PULUMI_ACCESS_TOKEN and variable value=<YOURpulumiAccessKey
-- ^^ https://app.pulumi.com/idusortus/settings/tokens
+- assign pulumi file & your key to PATH 
+  - variable name= PULUMI_ACCESS_TOKEN and 
+  - variable value=<YOURpulumiAccessKey>  (obtained from:  https://app.pulumi.com/<yourPulumiUserName>/settings/tokens
+
 - run through the pulumi quickstart to verify everything is working (https://www.pulumi.com/get-started/)
 - Pulumi re: B2C Creation --> https://www.pulumi.com/docs/reference/pkg/azure-native/azureactivedirectory/b2ctenant/#b2cresourceskuname
